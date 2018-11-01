@@ -1,0 +1,17 @@
+
+const types = {
+  OP_GET_TOKEN: 'loginSetToken', // 用于store获取token,这个值只能是string
+  OP_DELETE_TOKEN: 'deleteToken',
+  REGISTER_SUCCESS: 1100,
+  REGISTER_FAIL: 1101,
+  LOGIN_SUCCESS: 1000,
+  LOGIN_FAIL: 1001,
+  TASK_ADDTASK_SUCCESS: 1200,
+  TASK_ADDTASK_FAIL: 1201,
+  TASK_GETALL_SUCCESS: 1203,
+  TASK_GETALL_FAIL: 1204,
+  TASK_GETTODO_SUCCESS: 1205
+
+}
+
+export default types
